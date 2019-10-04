@@ -6,6 +6,9 @@ function changeScheduleToEven(){
     document.getElementById("webEven").classList.add('bg-primary')
 
     document.getElementById("tapThu").innerHTML = 'Geom L.308'
+
+    document.getElementById("calcThu").innerHTML = ''
+    document.getElementById("calcThu").classList.remove('bg-primary')
 }
 
 function changeScheduleToOdd(){
@@ -16,6 +19,9 @@ function changeScheduleToOdd(){
     document.getElementById("webEven").classList.remove('bg-primary')
 
     document.getElementById("tapThu").innerHTML = 'Tap 220'
+
+    document.getElementById("calcThu").innerHTML = 'Calc 10'
+    document.getElementById("calcThu").classList.add('bg-primary')
 }
 
 function scheduleA(event) {
