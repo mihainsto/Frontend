@@ -258,3 +258,38 @@ nav li a:hover{
   margin: 4px 2px;
   cursor: pointer;
 }
+
+
+
+
+
+/* for phones */
+@media screen and (max-width: 800px) {
+  .logo{
+    width: 15vw;
+    padding: 6vw 5vw;
+  }
+  nav li a{
+    font-size: 1.7vw;
+  }
+
+  .navProductsDropdown .navProductsDropdownBtn{
+    font-size: 1.7vw
+  }
+  .navProductsDropdown .navGCDropdownBtn{
+    font-size: 1.7vw
+  }
+  .navProductsDropdown-content{
+    min-width: 100px;
+  }
+  .navProductsDropdown .navGCDropdown-content{
+    left: 21vw;
+    min-width: 100px;
+    
+  }
+  nav li{
+    margin-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 15px;
+}
+}
