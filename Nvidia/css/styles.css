@@ -172,6 +172,7 @@ nav li a:hover{
 
 .slideshow-container button{
   background-color: #76b900;
+  font-weight: bold;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -183,9 +184,6 @@ nav li a:hover{
   cursor: pointer;
 }
 
-
-.mySlides {
-}
 
 .dot {
   top: -25px;
@@ -222,3 +220,41 @@ nav li a:hover{
   to {opacity: 1}
 }
 
+.whereToBuySection{
+  padding: 0px;
+  position: relative;
+  top: -23px;
+}
+.whereToBuySection img{
+  width: 100%;
+  height: auto;
+  max-height: auto;
+}
+
+.whereToBuySection .whereToBuyText{
+  font-weight: lighter;
+  color: #f2f2f2;
+  font-size: 3vw;
+  padding: 110px 40px;
+  top: 30px;
+  position: absolute;
+}
+.whereToBuySection .wheretoBuySubtext{
+  font-weight: lighter;
+  color: #f2f2f2;
+  font-size: 1.5vw;
+  padding: 15px 0px;
+}
+.whereToBuySection button{
+  font-weight: bold;
+  background-color: #76b900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
