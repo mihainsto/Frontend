@@ -1,88 +1,126 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Nvidia</title>
-<link href="css/styles.css" rel="stylesheet" type = "text/css">
-<link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
-<meta charset="UTF-8">
+    <title>Nvidia</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<header>
-    <div class="container">
-        <img src ="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/home_final/GEFORCE-Logo.svg" alt="logo" class="logo">
-        <nav>
-            <ul>
-                <li>
-                    <div class="navProductsDropdown">
-                     <button class="navProductsDropdownBtn">
-                        PRODUCTS
-                     </button>
-                     <div class ="navProductsDropdown-content">
-                         <div class="navProductsDropdown-contentEl">
-                                <div class="navGCDropdown">
-                                    <button class="navGCDropdownBtn">
-                                    GRAPHICS CARDS  
-                                    </button>
-                                    <div class ="navGCDropdown-content"> 
-                                        <a href="#"> RTX 2080 SUPER</a>
-                                        <a href="#"> RTX 2070 SUPER</a>
-                                        <a href="#"> RTX 2060 SUPER</a>
-                                        <a href="#"> RTX 2080 Ti</a>
+    <header>
+        <div class="container">
+            <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/home_final/GEFORCE-Logo.svg" alt="logo"
+                class="logo">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="navProductsDropdown">
+                            <button class="navProductsDropdownBtn">
+                                PRODUCTS
+                            </button>
+                            <div class="navProductsDropdown-content">
+                                <div class="navProductsDropdown-contentEl">
+                                    <div class="navGCDropdown">
+                                        <button class="navGCDropdownBtn">
+                                            GRAPHICS CARDS
+                                        </button>
+                                        <div class="navGCDropdown-content">
+                                            <a href="#"> RTX 2080 SUPER</a>
+                                            <a href="#"> RTX 2070 SUPER</a>
+                                            <a href="#"> RTX 2060 SUPER</a>
+                                            <a href="#"> RTX 2080 Ti</a>
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="navProductsDropdown-contentEl">
+
+                                    <div class="navGCDropdown">
+                                        <button class="navGCDropdownBtn">
+                                            LAPTOPS
+                                        </button>
+                                        <div class="navGCDropdown-content">
+                                            <a href="#"> RTX 20 series</a>
+                                            <a href="#"> GTX 1660 Ti</a>
+                                            <a href="#"> GTX 1660 Ti</a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                         <div class="navProductsDropdown-contentEl">
+                        </div>
 
-                             <div class="navGCDropdown">
-                                    <button class="navGCDropdownBtn">
-                                    LAPTOPS 
-                                    </button>
-                                    <div class ="navGCDropdown-content">
-                                        <a href="#"> RTX 20 series</a>
-                                        <a href="#"> GTX 1660 Ti</a>
-                                        <a href="#"> GTX 1660 Ti</a>
-                                    </div>
-                                </div>
-                            
-                          </div>
-                     </div>
+
+                    </li>
+                    <li><a>GAMES</a></li>
+                    <li><a>ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <section class="slideshowSection">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="resources/homeimage1resized.jpg " alt="Modern Warfare">
+                    <div class="slideshow-text ">
+                        THE RULES <br>
+                        HAVE CHANGED <br>
+                        <div class="slideshow-subtext">
+                            BUY GEFORCE RTX,<br>
+                            GET <i>CALL OF DUTY</i>:<br>
+                            <i>MODERN WARFARE </i><br>
+                            <button>BUY NOW</button>
+                        </div>
+
                     </div>
-                    
-
-                </li>
-                <li><a>GAMES</a></li>
-                <li><a>ABOUT</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<div class="main">
-<section>
-    
-    <div class="slideshow-container">
-
-            <div class="mySlides fade">
-            <img src="resources/homeimage1resized.jpg " alt="Modern Warfare">
-            <div class="slideshow-text "> 
-                THE RULES <br> 
-                HAVE CHANGED <br>
-                <div class="slideshow-subtext">
-                BUY GEFORCE RTX,<br>
-                GET <i>CALL OF DUTY</i>:<br>
-                <i>MODERN WARFARE </i><br>
-                <button>BUY NOW</button>
                 </div>
-                
+
+                <div class="mySlides fade">
+                    <img src="resources/homeimage2resized.jpg " alt="Modern Warfare">
+                    <div class="slideshow-text secondSlideshow-text">
+                        GET SUPER POWERS <br>
+                        <div class="slideshow-subtext">
+                            GEFORCE RTX SUPER SERIES<br>
+                            <button>BUY NOW</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+
+
+
+        </section>
+
+        <section class="whereToBuySection">
+            <img src="resources/wheretobuyimageresized.jpg " alt="Modern Warfare">
+            <div class="whereToBuyText">
+                SHOP GEFORCE <br> 
+                <div class = "wheretoBuySubtext">
+                Find retailers in your region selling NVIDIA GeForce products.
+                </div>
+                <button>WHERE TO BUY</button>
             </div>
-                        
-                    
+
+            </div>
+        </section>
+
+
     </div>
-
-            
-</section>
-
-</div>
 </body>
+
 </html>
++
+<script src="script/index.js"></script>
