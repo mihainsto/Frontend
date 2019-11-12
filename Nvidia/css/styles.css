@@ -3,6 +3,7 @@ body{
     background: grey;
     color: grey;
     font-family: 'Libre Franklin', sans-serif;
+    background: black;
 
 }
 .container{
@@ -161,7 +162,7 @@ nav li a:hover{
   color: #f2f2f2;
   font-size: 4.5vw;
   padding: 8px 90px;
-  top: 30px;
+  top: 20px;
   position: absolute;
 }
 .secondSlideshow-text{
@@ -227,7 +228,7 @@ nav li a:hover{
   position: relative;
   margin: auto;
   height: auto;
-  top: -23px;
+  top: -13px;
 }
 .whereToBuySection img{
   width: 100%;
@@ -264,6 +265,99 @@ nav li a:hover{
   margin: 4px 2px;
   cursor: pointer;
 }
+
+/*OPTIMIZE SECTION*/
+.optimizetextSection{
+  color: white;
+  text-align: center;
+}
+.optimizeText{
+  font-size: 3vw;
+  font-weight: lighter;
+}
+.optimizeSubText{
+  line-height: 3.6;
+  font-size: 1.2vw;
+}
+
+/* SUPPORT SECTION*/
+
+.SupportSection{
+  display: flex;
+}
+.SupportSection div{
+  margin: 10px;
+  padding: 5px;
+}
+.SupportSection img{
+  width: 30vw;
+}
+.SupportSection .supportTitle{
+  color: #76b900;
+  text-align: center;
+  font-size: 2.5vw;
+}
+.SupportSection .supportText{
+  color: white;
+  text-align: center;
+  font-size: 1vw;
+}
+.SupportSection .supportButton{
+  text-align: center;
+  padding: 1.3vw 0px;
+}
+
+.SupportSection button{
+  background-color: #76b900;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.VisitUSArangement{
+  position: relative;
+  top: 1.5vw;
+  
+}
+.Download1Arangement{
+  position: relative;
+  /*top: 0.77vw;*/
+  top: 1.8vw;
+
+}
+.Download2Arangement{
+  position: relative;
+  top: 2.76vw;
+}
+footer{
+  position: relative;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+footer img{
+  padding: 16px 16px;
+}
+footer div{
+  text-align: left;
+  padding: 16px;
+  position: relative;
+  top: -10px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -327,4 +421,61 @@ nav li a:hover{
 .whereToBuySection .wheretoBuySubtext{
   font-size: 1.7vw;
 }
+/*OPTIMIZE SECTION*/
+.optimizeText{
+  font-size: 3vw;
+  font-weight: lighter;
+}
+.optimizeSubText{
+  line-height: 1;
+  position: relative;
+  top: 2vw;
+  font-size: 3vw;
+  padding: 0px 8px;
+}
+/* SUPPORT SECTION*/
+.SupportSection{
+  flex-direction: column;
+}
+.SupportSection img{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%
+}
+.SupportSection button{
+  font-size: 2vw;
+  padding: 5px 10px;
+}
+.SupportSection div{
+  margin: 3px;
+  padding: 0px;
+}
+.SupportSection .supportText{
+  font-size: 2.5vw;
+  padding: 0px 15px;
+}
+.VisitUSArangement{
+  position: relative;
+  top: 0.5vw; 
+}
+.Download1Arangement{
+  position: relative;
+  /*top: 0.77vw;*/
+  top: 0.5vw;
+}
+.Download2Arangement{
+  position: relative;
+  top: 0.5vw;
+}
+}
+
+@media screen and (max-width: 1168px) and (min-width: 800px){
+  .Download1Arangement{
+    position: relative;
+    /*top: 0.77vw;*/
+    top: -1vw;
+  
+  }
 }
