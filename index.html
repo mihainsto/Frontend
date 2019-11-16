@@ -1,2 +1,182 @@
-<p><a href="schedule/index.html">Schedule</a></p>
-<p><a href="Nvidia/index.html">Nvidia</a></p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nvidia</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/home_final/GEFORCE-Logo.svg" alt="logo"
+                class="logo" onclick="redirectTOHomePage()">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="navProductsDropdown">
+                            <button class="navProductsDropdownBtn">
+                                PRODUCTS
+                            </button>
+                            <div class="navProductsDropdown-content">
+                                <div class="navProductsDropdown-contentEl">
+                                    <div class="navGCDropdown">
+                                        <button class="navGCDropdownBtn">
+                                            GRAPHICS CARDS
+                                        </button>
+                                        <div class="navGCDropdown-content">
+                                            <a href="rtx2080Super.html"> RTX 2080 SUPER</a>
+                                            <a href="rtx2070Super.html"> RTX 2070 SUPER</a>
+                                            <a href="rtx2060Super.html"> RTX 2060 SUPER</a>
+                                            <a href="rtx2080TI.html"> RTX 2080 Ti</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="navProductsDropdown-contentEl">
+
+                                    <div class="navGCDropdown">
+                                        <button class="navGCDropdownBtn">
+                                            LAPTOPS
+                                        </button>
+                                        <div class="navGCDropdown-content">
+                                            <a href="laptopsRTX20Series.html"> RTX 20 series</a>
+                                            <a href="laptopsGTX1660TI.html"> GTX 1660 Ti</a>
+                                            <a href="laptopsGTX1600TI.html"> GTX 1650</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <li><a href="games.html" style="color: inherit; text-decoration: none">GAMES</a></li>
+                    <li><a href="about.html" style="color: inherit; text-decoration: none">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <section class="slideshowSection">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="resources/homeimage1resized.jpg " alt="Modern Warfare">
+                    <div class="slideshow-text ">
+                        THE RULES <br>
+                        HAVE CHANGED <br>
+                        <div class="slideshow-subtext">
+                            BUY GEFORCE RTX,<br>
+                            GET <i>CALL OF DUTY</i>:<br>
+                            <i>MODERN WARFARE </i><br>
+                            <button onclick="redirectTOWhereToBuy()">BUY NOW</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="resources/homeimage2resized.jpg " alt="Modern Warfare">
+                    <div class="slideshow-text secondSlideshow-text">
+                        GET SUPER POWERS <br>
+                        <div class="slideshow-subtext">
+                            GEFORCE RTX SUPER SERIES<br>
+                            <button onclick="redirectTOWhereToBuy()">BUY NOW</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+
+
+
+        </section>
+
+        <section class="whereToBuySection">
+            <img src="resources/wheretobuyimageresized.jpg " alt="Modern Warfare">
+            <div class="whereToBuyText">
+                SHOP GEFORCE <br> 
+                <div class = "wheretoBuySubtext">
+                Find retailers in your region selling NVIDIA GeForce products.
+                </div>
+                <button onclick="redirectTOWhereToBuy()">WHERE TO BUY</button>
+
+            </div>
+
+            </div>
+        </section>
+
+        <section class="optimizetextSection">
+            <div class="optimizeText">
+            OPTIMISE YOUR PC GAMING EXPERIENCE <br>
+            </div>
+            <div class="optimizeSubText">
+            Download GeForce experience, browse the best PC games and access the latest GeForce drivers.
+            </div>
+        </section>
+
+        <section class="SupportSection">
+            <div class="support"> 
+                <img src="resources/GeforceGraphicsCard_SupportImage_web.png"></img>
+                <div class="supportTitle">
+                    SUPPORT
+                </div>
+                <div class="supportText">
+                        Explore our knowledge base, user forums, customer service and contact details.
+                </div>
+                <div class="supportButton VisitUSArangement">
+                        <button>VISIT NOW</button>
+                    </div>
+            </div>
+            <div class="gforceExperience">
+                <img src="resources/gf-home-spotlight-407x316-tp@2x.png"></img>
+                <div class="supportTitle">
+                        GEFORCE EXPERIENCE
+                    </div>
+                    <div class="supportText">
+                            Capture and share videos, screenshots, and livestreams. Keep your drivers up to date and optimize your games.
+                        </div>
+                        <div class="supportButton Download1Arangement">
+                                <button>DOWNLOAD</button>
+                            </div>
+            </div>
+            <div class="drivers">
+                <img src="resources/drivers.png"></img>
+                <div class="supportTitle">
+                        DRIVERS
+                </div>
+                <div class="supportText">
+                        Download the latest GeForce driver releases.
+                </div>
+                <div class="supportButton Download2Arangement">
+                        <button>DOWNLOAD</button>
+                    </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <footer>
+        <img src="resources/footerlogo.png">
+        <div> Original website: www.nvidia.com/en-me/geforce/ </div>
+    </footer>
+</body>
+
+</html>
+
+<script src="script/index.js"></script>
+<script src="script/shared.js"></script>
