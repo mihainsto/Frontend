@@ -1,0 +1,17 @@
+Windows 10 32-bit
+Windows 10 64-bit
+Windows 7 32-bit
+Windows 7 64-bit
+Windows 8.1 32-bit
+Windows 8.1 64-bit
+Windows Vista 32-bit
+Windows Vista  64-bit
+Windows XP 32-bit
+Windows XP 64-bit
+Windows Server 2003 x64
+Linux 32-bit
+Linux 32-bit ARM
+Linux 64-bit
+Solaris x86/x64
+FreeBSD x86
+FreeBSD x64

@@ -71,42 +71,44 @@
         <div class="driverSearchFlex">
         
         <div class="driversSelect">
-            <select>
-                <option value="Gforce">Gforce</option>
+            <select id="DriverSearchSeries" onchange="Change_DriverSearchSeries(this.value)">
             </select>
-            <select>
-                <option value="Gforce 20 series">Gforce 20 series</option>
+            <select id="DriverSearchArhitectures" onchange="Change_DriverSearchArhitectures(this.value)">
             </select>
-            <select>
-                <option value="Gforce RTX 2080">Gforce RTX 2080</option>
+            <select id="DriverSearchCards">
             </select>
-            <select>
+            <select id="DriverSearchOs">
                 <option value="Windows 10 64 bit">Windows 10 64 bit</option>
             </select>
-            <select>
+            <select id="DriverSearchLang">
                 <option value="English (UK)">English (UK)</option>
             </select>
             <select>
                 <option value="All">All</option>
             </select>
-            <button type="button" class="searchButton">Search</button>
+            <button type="button" class="searchButton" onclick="searchButtonClicked()">Search</button>
         </div>
-        <div class="driversResponse">
+        <div class="driversResponse" id = "driversResponse">
             <div class="responseItem">
                 <div class="responseItemBlock">
                 <div class="responseItemBlockDownloadImage">
-                    <img src="/resources/downloadImage.png">
+                    <img src="resources/downloadImage.png">
                 </div>
                 <div class="responseItemBlocktext">
-                <div class="responseItemTitle">Nvidia Gaming Driver</div>
-                <div class="responseItemDescription">Version 10.04</div>
+                <div class="responseItemTitle">Please search for a driver</div>
+                <div class="responseItemDescription"></div>
                 </div>
             </div>
             </div>
+            
         </div>
+        
     </div>
+    
     </div>
+   
     </div>
+    <div class="paddingDriverSearchBlock">a</div>
     </section> 
   
     <footer>
@@ -119,4 +121,5 @@
 </html>
 <script src="script/shared.js"></script>
 <script src="script/lightbox-plus-jquery.js"></script>
+<script src="script/drivers.js"></script>
 

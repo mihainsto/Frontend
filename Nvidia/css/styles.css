@@ -266,7 +266,12 @@ nav li a:hover{
   margin: 4px 2px;
   cursor: pointer;
 }
-
+.WheretoBuyButton{
+  transition: width 2s;
+}
+.WheretoBuyButton:hover{
+  width: 20vw;
+}
 /*OPTIMIZE SECTION*/
 .optimizetextSection{
   color: white;

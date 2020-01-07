@@ -1,0 +1,80 @@
+Titan
+Gforce
+Legacy
+3d Vision
+ION
+
+
+
+GeForce RTX 20 Series (Notebooks)
+GeForce RTX 20 Series
+GeForce MX200 Series (Notebooks)
+GeForce MX100 Series (Notebooks)
+GeForce GTX 16 Series (Notebooks)
+GeForce 16 Series
+GeForce 10 Series
+GeForce 10 Series (Notebooks)
+GeForce 900 Series
+GeForce 900M Series (Notebooks)
+GeForce 800M Series (Notebooks)
+GeForce 700 Series
+GeForce 700M Series (Notebooks)
+GeForce 600 Series
+GeForce 600M Series (Notebooks)
+GeForce 500 Series
+GeForce 500M Series (Notebooks)
+GeForce 400 Series
+GeForce 400M Series (Notebooks)
+GeForce 300 Series
+GeForce 300M Series (Notebooks)
+GeForce 200 Series
+GeForce 200M Series (Notebooks)
+GeForce 100 Series
+GeForce 100M Series (Notebooks)
+GeForce 9 Series
+GeForce 9M Series (Notebooks)
+GeForce 8 Series
+GeForce 8M Series (Notebooks)
+GeForce 7 Series
+
+
+Windows 10 32-bit
+Windows 10 64-bit
+Windows 7 32-bit
+Windows 7 64-bit
+Windows 8.1 32-bit
+Windows 8.1 64-bit
+Windows Vista 32-bit
+Windows Vista  64-bit
+Windows XP 32-bit
+Windows XP 64-bit
+Windows Server 2003 x64
+Linux 32-bit
+Linux 32-bit ARM
+Linux 64-bit
+Solaris x86/x64
+FreeBSD x86
+FreeBSD x64
+
+
+English (US)
+English (UK)
+English (India)
+Chinese (Simplified)
+Chinese (Traditional)
+Japanese
+Korean
+Deutsch
+Espanol (Espana)
+Espanol (America Latina)
+Francais
+Italiano
+Polski
+Portugues (Brazil)
+Pyccknn
+Turkis
+Other
+
+
+
+

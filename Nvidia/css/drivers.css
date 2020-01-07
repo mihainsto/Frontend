@@ -152,6 +152,7 @@ footer{
   background-color: white;
   color: black;
   text-align: left;
+  margin-top: 30vw;
 }
 footer img{
   padding: 16px 16px;
@@ -203,8 +204,10 @@ footer div{
   margin-bottom: 1vw;
 }
 .driverSearchFlex{
-  display:flex;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .searchButton{
   position: relative;
   display: block;
@@ -217,6 +220,7 @@ footer div{
   border-radius: 20px;
   border: none;
   color: white;
+
 }
 .searchButton:hover{
   background-color: yellowgreen;
@@ -251,10 +255,14 @@ footer div{
   width: 5vw;
 }
 .responseItemBlock{
-  display: flex
+  display: flex;
 }
 .responseItemBlocktext{
   margin-left: 2vw;
+}
+.paddingDriverSearchBlock{
+  height: 2vw;
+  color: #1A1D20;
 }
 /* for phones */
 @media screen and (max-width: 800px) {

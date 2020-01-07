@@ -220,7 +220,29 @@ footer div{
     font-size: 2vw;
   }
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 98%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.ifrWrapper{
+  display: block;
+  text-align: center;
+
+}
 
 @media screen and (max-width: 1168px) and (min-width: 800px){
 }

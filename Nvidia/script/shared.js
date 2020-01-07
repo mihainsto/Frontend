@@ -7,3 +7,6 @@ function redirectToRTX2080Super(){
 function redirectTOWhereToBuy(){
   location.replace("buy.html")
 }
+function redirectTOWhereToDrivers(){
+  location.replace("drivers.html")
+}

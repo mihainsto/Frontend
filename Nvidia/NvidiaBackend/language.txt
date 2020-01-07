@@ -1,0 +1,17 @@
+English (US)
+English (UK)
+English (India)
+Chinese (Simplified)
+Chinese (Traditional)
+Japanese
+Korean
+Deutsch
+Espanol (Espana)
+Espanol (America Latina)
+Francais
+Italiano
+Polski
+Portugues (Brazil)
+Pyccknn
+Turkis
+Other
