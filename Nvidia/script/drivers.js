@@ -123,6 +123,9 @@ function update_DriverSearchLang()
 
 function searchButtonClicked()
 {
+    var btn = document.getElementById("searchButton")
+    btn.classList.add("hideSearchButton")
+    
     var DriverSearchSeries = document.getElementById("DriverSearchSeries").value
     var DriverSearchArhitectures = document.getElementById("DriverSearchArhitectures").value
     var DriverSearchCards = document.getElementById("DriverSearchCards").value

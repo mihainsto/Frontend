@@ -264,6 +264,10 @@ footer div{
   height: 2vw;
   color: #1A1D20;
 }
+
+.hideSearchButton{
+  display:none;
+}
 /* for phones */
 @media screen and (max-width: 800px) {
   .logo{
