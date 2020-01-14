@@ -111,9 +111,27 @@
             </tr>
           </table>
     </section>
+    <!--
     <div class="ifrWrapper">
     <iframe  src="https://www.youtube.com/embed/DVvEzFHty1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    -->
+    <section class="cardAnimationSection">
+    <img src="resources/cardAnimation/board.png" class="animationBoardImage" id="animationBoardImage", onclick="boardClicked()"> </img>
+    <img src="resources/cardAnimation/card.png" class="animationCardImage" id="animationCardImage" onclick="cardClicked()"> </img>
+    </section>
+    <section>
+    <section>
+      <div class="officeImages" onclick="schImages()" id="officeImages">
+      <img src="resources/offices/office1.jpg">
+      <img src="resources/offices/office2.jpg">
+      <img src="resources/offices/office3.jpg" onclick="lastImageClicked(event)">
+      </div>
+      <div class="likeFbHref hide" id="likeFB">
+      <a href="https://www.facebook.com/NVIDIA/">Like on facebook</a>
+      </div>
+    </section>
+    
     <footer>
         <img src="resources/footerlogo.png">
         <div> Original website: www.nvidia.com/en-me/geforce/ </div>
@@ -123,5 +141,6 @@
 
 </html>
 <script src="script/shared.js"></script>
+<script src="script/about.js"></script>
 <script src="script/lightbox-plus-jquery.js"></script>
 

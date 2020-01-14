@@ -120,11 +120,12 @@ function update_DriverSearchLang()
         DriverSearchLang.add(option);
     }
 }
-
-function searchButtonClicked()
+function searchButtonClicked(event)
 {
+
     var btn = document.getElementById("searchButton")
     btn.classList.add("hideSearchButton")
+
     
     var DriverSearchSeries = document.getElementById("DriverSearchSeries").value
     var DriverSearchArhitectures = document.getElementById("DriverSearchArhitectures").value
@@ -146,6 +147,7 @@ function searchButtonClicked()
     drivers['driver2']['driverversion'], DriverSearchCards)
     html = html1 + " " + html2
     driversResponse.innerHTML = html
+    
 }
 
 function getDriverEntry(driverName, driverVersion, videocard)
@@ -166,6 +168,18 @@ function getDriverEntry(driverName, driverVersion, videocard)
     </div>`
     return htmlContent
 }
+var readedTC = 0
+function chBoxClicked(event)
+{
+    if (readedTC == 0){
+        readedTC = 1
+        var win = window.open("terms.html", '_blank');
+        win.focus();
+        event.preventDefault()         
+    }
+    
+}
+
 // function postTest(){  
 //     var xhr = new XMLHttpRequest();
 //     xhr.open("POST", "http://localhost:3000/driver", true);

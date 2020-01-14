@@ -268,6 +268,15 @@ footer div{
 .hideSearchButton{
   display:none;
 }
+.agreeThermsCheckbox{
+  display: inline-block;
+  margin-left: 2.9vw;
+  width: 1vw;
+}
+.agreeCheckboxContainer{
+  font-size: 0.6em;
+}
+
 /* for phones */
 @media screen and (max-width: 800px) {
   .logo{

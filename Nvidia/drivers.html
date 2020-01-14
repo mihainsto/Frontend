@@ -86,7 +86,10 @@
             <select>
                 <option value="All">All</option>
             </select>
-            <button type="button" id="searchButton" class="searchButton" onclick="searchButtonClicked()">Search</button>
+            <div class="agreeCheckboxContainer">
+                <input type="checkbox" id="searchCheckbox" name="agree" value="agree" class="agreeThermsCheckbox" onclick="chBoxClicked(event)"> 
+                Do you agree with our T & S?</div>
+            <button type="button" id="searchButton" class="searchButton" onclick="searchButtonClicked(event)">Search</button>
             <br>
             <br>
         </div>

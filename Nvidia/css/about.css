@@ -243,7 +243,33 @@ tr:nth-child(even) {
   text-align: center;
 
 }
+.cardAnimationSection{
+  padding-top: 8vw;
+  padding-left: 1vw;
+  background-color: white;
+}
+.animationCardImage{
+  position: relative;
+  left: -27vw;
+  top: -3.5vw;
+  
+}
+.officeImages{
+  margin-left: 1vw;
+}
+.officeImages img{
+  width: 50%;
+}
+.likeFbHref{
+  position: relative;
+  top: -3vw;
+  margin-left: 1.4vw;
+  color: white;
 
+}
+.hide{
+  display: none;
+}
 @media screen and (max-width: 1168px) and (min-width: 800px){
 }
 
