@@ -107,9 +107,10 @@ function update_DriverSearchOs()
 update_DriverSearchLang()
 function update_DriverSearchLang()
 {
+    var btn = document.getElementById("searchButton")
     resetSelect("DriverSearchLang")
     var DriverSearchLang = document.getElementById("DriverSearchLang")
-    response = JSON.parse(httpGet("http://localhost:3000/lang"))
+    let response = JSON.parse(httpGet("http://localhost:3000/lang"))
     lang = response
     for (var i = 0; i<lang.length;i++)
     {
@@ -123,6 +124,8 @@ function update_DriverSearchLang()
 
 function searchButtonClicked()
 {
+    var btn = document.getElementById("searchButton")
+    btn.classList.add("hideSearchButton")
     var DriverSearchSeries = document.getElementById("DriverSearchSeries").value
     var DriverSearchArhitectures = document.getElementById("DriverSearchArhitectures").value
     var DriverSearchCards = document.getElementById("DriverSearchCards").value
@@ -156,7 +159,8 @@ function getDriverEntry(driverName, driverVersion, videocard)
     </div>
     <div class="responseItemBlocktext">
     <div class="responseItemTitle">`+driverName+`</div>
-    <div class="responseItemDescription">`+videocard+ ' ' +driverVersion+`</div>
+    <div class="responseItemDescription">`+videocard+ ' ' +driverVersion+' '+new Date().getFullYear()+
+    `</div>
     
     </div>
     </div>

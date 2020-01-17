@@ -14,8 +14,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/driversALL', (req, res) => {
-    drivers.push('BLAAA');
+    drivers.push('test');
     res.json(drivers);
+    const data = req.body;
+    card = data[card]
+    response['card'] = String(card).replace("Gforce","GeForce")
+    res.json(response);
+    
+
 });
 
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`));
