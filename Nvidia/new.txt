@@ -1,0 +1,5 @@
+getComputedStyle
+stopPropagation
+preventDefault
+setInterval
+clearInterval
