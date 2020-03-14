@@ -1,7 +1,6 @@
 # Frontend
-Frontend projects:
-Vending Machine Manager -   
-https://github.com/BogdanNitica99/Vending-Machine-Manager   
+Frontend projects
+
 
 # UI / UX
 Adobe XD links:  
